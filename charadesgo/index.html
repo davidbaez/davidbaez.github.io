@@ -3,90 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Charades GO! — Word Guessing Party Game</title>
-<meta name="description" content="Charades GO is a word-guessing party game for iPhone. All decks are 100% free, forever.">
-<style>
-  :root {
-    --paper: #3d348b;
-    --ink: #FFFFFF;
-    --ink-soft: #DDDDDD;
-    --accent: #30BCED;
-    --go: #FF8811;
-    --line: #DFE3DF;
-    --card: #FFFFFF;
+<title>Charades GO — Free Charades App for iPhone (58+ Decks)</title>
+<meta name="description" content="Charades GO is a free charades app for iPhone with 58+ themed decks, all free with no paywalls. Hold the phone to your forehead, tilt to score. Great for kids, families and parties.">
+<link rel="canonical" href="https://davidbaez.github.io/charadesgo/">
+
+<!-- Safari Smart App Banner -->
+<meta name="apple-itunes-app" content="app-id=6468895651">
+
+<!-- Icons -->
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
+<meta name="theme-color" content="#3d348b">
+
+<!-- Social previews -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Charades GO">
+<meta property="og:title" content="Charades GO — Free Charades App for iPhone">
+<meta property="og:description" content="58+ themed decks, all free. No paywalls. The charades app that's actually free.">
+<meta property="og:url" content="https://davidbaez.github.io/charadesgo/">
+<meta property="og:image" content="https://davidbaez.github.io/charadesgo/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Charades GO — 58+ free charades decks for iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Charades GO — Free Charades App for iPhone">
+<meta name="twitter:description" content="58+ themed decks, all free. No paywalls. The charades app that's actually free.">
+<meta name="twitter:image" content="https://davidbaez.github.io/charadesgo/img/og.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Charades GO",
+  "operatingSystem": "iOS",
+  "applicationCategory": "GameApplication",
+  "description": "A free charades party game for iPhone with 58+ themed decks. Hold the phone to your forehead, tilt down when you guess right and tilt up to pass.",
+  "url": "https://davidbaez.github.io/charadesgo/",
+  "downloadUrl": "https://apps.apple.com/app/id6468895651",
+  "installUrl": "https://apps.apple.com/app/id6468895651",
+  "image": "https://davidbaez.github.io/charadesgo/img/og.png",
+  "screenshot": [
+    "https://davidbaez.github.io/charadesgo/img/screen-1.png",
+    "https://davidbaez.github.io/charadesgo/img/screen-2.png",
+    "https://davidbaez.github.io/charadesgo/img/screen-3.png"
+  ],
+  "contentRating": "4+",
+  "inLanguage": "en",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "David Baez",
+    "url": "https://davidbaez.github.io/"
   }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--paper);
-    color: var(--ink);
-    font: 18px/1.7 Georgia, 'Times New Roman', serif;
-    min-height: 100svh;
-    display: grid;
-    place-items: center;
-    padding: 48px 24px;
-  }
-  main { max-width: 520px; width: 100%; }
-  .crumb {
-    font: 600 13px/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  }
-  .crumb a {
-    color: var(--ink-soft);
-    text-decoration: none;
-  }
-  .crumb a:hover { color: var(--accent); }
-  h1 {
-    margin-top: 26px;
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-    line-height: 1.1;
-  }
-  h1 .go { color: var(--go); }
-  .tagline {
-    color: var(--ink-soft);
-    font-style: italic;
-    margin-top: 6px;
-  }
-  .body {
-    margin-top: 26px;
-  }
-  .body p + p { margin-top: 14px; }
-  .body h2 {
-    margin-top: 30px;
-    font: 700 18px/1.3 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  }
-  .body ol, .body ul {
-    margin-top: 10px;
-    padding-left: 24px;
-  }
-  .body li + li { margin-top: 6px; }
-  .body h2 + p, .body ul + p, .body ol + p { margin-top: 14px; }
-  .body .note { color: var(--ink-soft); font-style: italic; }
-  .cta {
-    display: inline-block;
-    margin-top: 30px;
-    background: var(--ink);
-    color: var(--paper);
-    text-decoration: none;
-    font: 600 16px/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    padding: 15px 26px;
-    border-radius: 999px;
-  }
-  .cta:hover { background: var(--accent); }
-  .cta:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 3px;
-  }
-  .fine {
-    margin-top: 34px;
-    padding-top: 18px;
-    border-top: 1px solid var(--line);
-    font: 14px/1.6 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    color: var(--ink-soft);
-  }
-  .fine a { color: var(--accent); text-decoration: none; }
-  .fine a:hover { text-decoration: underline; }
-</style>
+}
+</script>
+
+<link rel="stylesheet" href="/charadesgo/style.css">
 </head>
 <body>
 <main>
@@ -95,38 +71,61 @@
   <h1>Charades <span class="go">GO</span></h1>
   <p class="tagline">The free charades app that&rsquo;s actually free.</p>
 
+  <a class="cta" href="https://apps.apple.com/app/id6468895651">Download free on the App&nbsp;Store</a>
+
+  <div class="shots">
+    <img src="/charadesgo/img/screen-1.png" alt="Charades GO deck picker showing themed charades categories" width="139" height="300" loading="lazy" onerror="this.remove()">
+    <img src="/charadesgo/img/screen-2.png" alt="A charades card on screen during a round of Charades GO" width="139" height="300" loading="lazy" onerror="this.remove()">
+    <img src="/charadesgo/img/screen-3.png" alt="Charades GO results screen after a round" width="139" height="300" loading="lazy" onerror="this.remove()">
+  </div>
+
   <div class="body">
-    <p>Charades GO is the word guessing party game everyone needs on their iPhone. Every single category in our game is 100% free to play, forever. All 57+ of them. No paywalls or forced subscriptions.</p>
-    <p>We add 1&ndash;2 categories to our library every single week, and we do not plan on ever stopping. So you can count on always having fresh categories ready for your next party.</p>
+    <p>Charades GO is the word guessing party game everyone needs on their iPhone. Every single deck is 100% free to play, forever. All 58+ of them. No paywalls, no locked categories, no forced subscriptions.</p>
+    <p>We add 1&ndash;2 new decks every week and don&rsquo;t plan on stopping, so there&rsquo;s always something fresh for your next game night.</p>
 
     <h2>How to play</h2>
     <ol>
-      <li>Select from our large list of 57+ free themed categories.</li>
+      <li>Pick one of 58+ free themed decks.</li>
       <li>Hold the phone to your forehead so everyone but you can see the screen.</li>
-      <li>Your friends and family will yell out clues for the word on the screen, all at the same time in a very chaotic manner!</li>
-      <li>Tilt down if you guessed correctly and tilt up to pass the current word.</li>
-      <li>Pass the phone to the next guesser and repeat!</li>
+      <li>Your friends and family shout clues, act it out, or hum it, all at once, in glorious chaos.</li>
+      <li>Tilt down when you guess it. Tilt up to pass.</li>
+      <li>Hand the phone to the next guesser and go again!</li>
     </ol>
 
-    <h2>Categories include</h2>
+    <h2>Decks include</h2>
     <ul>
-      <li>Everything Deck <span class="note">(a combination of many categories for variety)</span></li>
+      <li>Everything <span class="note">(a mix of many decks for variety)</span></li>
+      <li>Made for Kids <span class="note">(easy words for young readers)</span></li>
+      <li>Emoji <span class="note">(picture cards for kids who can&rsquo;t read yet)</span></li>
       <li>Act It Out</li>
+      <li>Hum That Tune</li>
+      <li>Bedtime Stories</li>
       <li>Animalistic</li>
       <li>Fast Food</li>
-      <li>Made For Kids <span class="note">(easy deck for young readers)</span></li>
-      <li>Sound It Out</li>
       <li>Accents</li>
-      <li>Brands</li>
-      <li>Disney</li>
-      <li>Everyday Things</li>
-      <li>And many more!</li>
+      <li>&rsquo;Tis the Season <span class="note">(Christmas and holiday cards)</span></li>
+      <li>And dozens more</li>
     </ul>
 
-    <p>Charades GO is a local multiplayer game that can be played with as few as 2 people, or as many as 100+ people (if they fit in the room). It is suitable for all ages and playable fully offline. It is the perfect addition for any game night or family gathering. We hope you enjoy our free charades game!</p>
+    <h2>Why people pick Charades GO</h2>
+    <ul>
+      <li><strong>Every deck is free.</strong> Most charades apps give you a handful of decks and lock the rest.</li>
+      <li><strong>Works offline.</strong> Play on a plane, at the cabin, anywhere.</li>
+      <li><strong>Any group size.</strong> From 2 players to 100+ (if they fit in the room).</li>
+      <li><strong>All ages.</strong> Rated 4+, with decks made for little kids.</li>
+    </ul>
+    <p class="note">Optional Charades GO+ removes ads and unlocks longer round timers. Every deck stays free either way.</p>
+
+    <h2>Charades ideas and guides</h2>
+    <ul class="guides">
+      <li><a href="/charadesgo/how-to-play/">How to play charades</a><span>Classic rules, hand signals, team scoring and the phone version</span></li>
+      <li><a href="/charadesgo/charades-words-for-kids/">Charades words for kids</a><span>Easy, printable word lists sorted by age</span></li>
+      <li><a href="/charadesgo/thanksgiving-charades/">Thanksgiving charades ideas</a><span>Turkey-day words for the whole family</span></li>
+      <li><a href="/charadesgo/christmas-charades/">Christmas charades ideas</a><span>Holiday movies, songs, characters and traditions</span></li>
+    </ul>
   </div>
 
-  <a class="cta" href="https://apps.apple.com/app/id6468895651">Download on the App&nbsp;Store</a>
+  <a class="cta" href="https://apps.apple.com/app/id6468895651">Download free on the App&nbsp;Store</a>
 
   <p class="fine">
     Questions or ideas for a deck? <a href="mailto:redcouchmail@gmail.com">Email me</a>
