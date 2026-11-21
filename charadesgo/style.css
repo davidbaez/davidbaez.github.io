@@ -86,7 +86,7 @@ h1 .go { color: var(--go); }
   margin-top: 30px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding-bottom: 8px;
+  padding: 4px 4px 16px;
 }
 .shots img {
   flex: 0 0 auto;
@@ -95,6 +95,8 @@ h1 .go { color: var(--go); }
   border-radius: 16px;
   scroll-snap-align: start;
   background: var(--panel);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .guides { list-style: none; padding-left: 0 !important; }
