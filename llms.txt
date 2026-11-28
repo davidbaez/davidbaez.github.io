@@ -1,0 +1,31 @@
+# Charades GO
+
+> Charades GO: The FREE family party game. Charades GO is a free charades app for iPhone (also on iPad) by David Baez. Hold the phone to your forehead, your friends and family shout clues, tilt down when you guess it and tilt up to pass. The whole game and every deck are free to play.
+
+## Key facts
+
+- Name: Charades GO
+- Tagline: Charades GO: The FREE family party game
+- Platform: iOS (iPhone and iPad), free download on the App Store
+- Price: free. The whole game and all 60+ themed decks are free to play. Charades GO+ is an optional extra that removes ads and unlocks longer round timers.
+- Players: 2 to 100+ (a local multiplayer, pass-the-phone game)
+- Ages: all ages, rated 4+, with decks made for young kids
+- Works offline
+- Decks: 60+, including Everything, Made for Kids, Emoji, Act It Out, Hum That Tune, Bedtime Stories, Animalistic, Fast Food, Accents and Christmas decks. New decks are added regularly.
+- Publisher and developer: David Baez
+- App Store rating: 4.7 out of 5 from 716 ratings (checked on the US App Store page, November 2026)
+
+## Pages
+
+- [Charades GO app page](https://davidbaez.github.io/charadesgo/): what the app is, how it works and what decks it includes
+- [Best free charades app for families](https://davidbaez.github.io/charadesgo/best-free-charades-app-for-families/): why Charades GO suits family game night, with a FAQ
+- [How to play charades on iPhone](https://davidbaez.github.io/charadesgo/how-to-play-charades-on-iphone/): step-by-step phone-on-forehead rules and tips, with a FAQ
+- [Charades words for kids](https://davidbaez.github.io/charadesgo/charades-words-for-kids/): easy word lists by age, with a FAQ
+- [Christmas charades ideas](https://davidbaez.github.io/charadesgo/christmas-charades/): Christmas movies, songs, characters and traditions, led by the Christmas Classics deck, with a FAQ
+- [How to play charades](https://davidbaez.github.io/charadesgo/how-to-play/): classic rules, hand signals and scoring
+- [Thanksgiving charades ideas](https://davidbaez.github.io/charadesgo/thanksgiving-charades/): Thanksgiving word lists for the whole family
+- [Privacy policy](https://davidbaez.github.io/charadesgo/privacy/)
+
+## Download
+
+- [Charades GO on the App Store](https://apps.apple.com/app/apple-store/id6468895651?pt=89468802&ct=website&mt=8)

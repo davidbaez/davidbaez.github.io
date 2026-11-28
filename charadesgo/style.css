@@ -115,3 +115,7 @@ h1 .go { color: var(--go); }
 }
 .fine a { color: var(--accent); text-decoration: none; }
 .fine a:hover { text-decoration: underline; }
+
+/* FAQ sections */
+.body .faq h3 { margin-top: 18px; font-size: 17px; color: var(--ink); text-transform: none; letter-spacing: 0; }
+.body .faq h3 + p { margin-top: 6px; }
